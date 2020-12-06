@@ -11,7 +11,7 @@ const elasticClient = elastic.Client({
   host: 'localhost:9200',
 });
 
-let productos = [
+let the_products = [
   {
     "sku": "1",
     "name": "Sillón 3 cuerpos",
